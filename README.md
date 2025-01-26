@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in Dapp development where the `web3.eth.getBalance` function may return a balance as a string instead of a number. This can lead to unexpected behavior if the application expects a numerical value.  The `bug.js` file shows the problematic code, and the `bugSolution.js` file demonstrates a solution to convert the string to a number.
